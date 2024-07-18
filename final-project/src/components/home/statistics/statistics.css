@@ -1,0 +1,26 @@
+.statistics h2 {
+    font-family: "Playwrite BE VLG", cursive;
+    color: firebrick;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.statistics-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: mediumseagreen;
+    border-radius: 0;
+    margin: 0 50px;
+    border: none;
+}
+
+.statistics-img {
+    width: 150px;
+    height: 150px;
+}
+
+.statistics-title {
+    font-weight: bold;
+}
