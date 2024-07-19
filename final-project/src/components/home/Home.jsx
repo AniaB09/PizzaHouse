@@ -1,6 +1,7 @@
 import Title from "./title/Title.jsx";
 import OpinionsCarousel from "./carousel/Carousel.jsx";
 import Statistics from "./statistics/Statistics.jsx";
+import Advantages from "./advantages/Advantages.jsx";
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <Title />
             <OpinionsCarousel />
             <Statistics />
+            <Advantages />
         </>
     )
 }
