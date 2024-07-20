@@ -8,7 +8,7 @@ function Header() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="/home"><img
+                <Navbar.Brand href="/"><img
                     src='https://www.svgrepo.com/show/215585/pizza.svg'
                     width='30'
                     height='30'
@@ -18,7 +18,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/home">Strona główna</Nav.Link>
+                        <Nav.Link href="/">Strona główna</Nav.Link>
                         <Nav.Link href="/about">O nas</Nav.Link>
                         <Nav.Link href="/order">Menu/Zamów</Nav.Link>
                         <Nav.Link href="/contact">Kontakt</Nav.Link>
