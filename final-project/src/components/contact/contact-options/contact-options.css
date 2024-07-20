@@ -1,0 +1,25 @@
+.options-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: mediumseagreen;
+    border-radius: 0;
+    margin: 50px 30px;
+    border: none;
+}
+
+.options-card:hover {
+    background: coral;
+    transform: scale(1.1);
+}
+
+.options-img {
+    width: 100px;
+    height: 100px;
+}
+
+.options-title {
+    font-weight: 600;
+}
+
