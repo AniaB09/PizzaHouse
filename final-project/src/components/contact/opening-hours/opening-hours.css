@@ -1,0 +1,9 @@
+.opening-hours-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    margin-top: 50px;
+}
