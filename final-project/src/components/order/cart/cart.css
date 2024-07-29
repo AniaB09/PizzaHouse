@@ -1,0 +1,17 @@
+.cart-title {
+    font-family: "Playwrite BE VLG", cursive;
+    color: firebrick;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.products-list {
+    border: 2px solid mediumseagreen;
+    border-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .cart-container {
+        position: fixed;
+    }
+}
