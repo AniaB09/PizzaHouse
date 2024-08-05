@@ -1,3 +1,13 @@
 .navbar-brand {
     font-family: 'Playwrite BE VLG', cursive;
 }
+
+.links {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.links:hover {
+    color: inherit;
+    text-decoration: inherit;
+}

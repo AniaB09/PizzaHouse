@@ -3,6 +3,7 @@ import './footer.css';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
+import {Link} from "react-router-dom";
 
 function Footer() {
     return (
@@ -11,10 +12,10 @@ function Footer() {
                 <Row>
                     <Col className='footer-column'>
                         <h5>PizzaHouse</h5>
-                        <li><a href='/'>Strona główna</a></li>
-                        <li><a href='/about'>O nas</a></li>
-                        <li><a href='/order'>Menu/Zamów</a></li>
-                        <li><a href='/contact'>Kontakt</a></li>
+                        <Link to='/'>Strona główna</Link>
+                        <Link to='/about'>O nas</Link>
+                        <Link to='/order'>Menu/Zamów</Link>
+                        <Link to='/contact'>Kontakt</Link>
                     </Col>
                     <Col className='footer-column'>
                         <h5>Godziny otwarcia</h5>
