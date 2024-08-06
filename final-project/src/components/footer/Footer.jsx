@@ -12,10 +12,10 @@ function Footer() {
                 <Row>
                     <Col className='footer-column'>
                         <h5>PizzaHouse</h5>
-                        <Link to='/'>Strona główna</Link>
-                        <Link to='/about'>O nas</Link>
-                        <Link to='/order'>Menu/Zamów</Link>
-                        <Link to='/contact'>Kontakt</Link>
+                        <Link to='/' onClick={() => window.scrollTo(0, 0)}>Strona główna</Link>
+                        <Link to='/about' onClick={() => window.scrollTo(0, 0)}>O nas</Link>
+                        <Link to='/order' onClick={() => window.scrollTo(0, 0)}>Menu/Zamów</Link>
+                        <Link to='/contact' onClick={() => window.scrollTo(0, 0)}>Kontakt</Link>
                     </Col>
                     <Col className='footer-column'>
                         <h5>Godziny otwarcia</h5>
