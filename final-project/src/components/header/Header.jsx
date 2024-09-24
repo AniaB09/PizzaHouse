@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 function Header() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg">
             <Container>
                 <Navbar.Brand href="/"><img
                     src='https://www.svgrepo.com/show/215585/pizza.svg'

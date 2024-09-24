@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className='footer bg-light text-dark'>
+        <footer className='footer text-dark'>
             <Container>
                 <Row>
                     <Col className='footer-column'>
